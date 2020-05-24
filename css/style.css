@@ -1,0 +1,64 @@
+
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #bd2608;
+}
+
+
+/* La clase .container de Bootstrap con estos parámetros permite hacerla responsiva */
+.container{
+    display: flex;
+    flex-wrap: warp;
+    
+    
+    
+}
+
+.characters{
+   
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #3372d6;
+}
+
+.resultado-final{
+    background-color: #abc4ed;
+}
+
+.primer-calculo, .segundo-calculo, .resultado-final {
+    display: none;
+}
+
+#contenido-interno {
+    /* Position absolute y determinar el % de la posición a los lados permite un centrado efectivo */
+    position: absolute;
+    left: 8%;
+    right: 8%;
+    /*  max-width: 85%; */
+    display: center;
+    border: 2px solid #3372d6;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  #alice {
+    float: left;
+  }
+
+  #snake {
+    float: right;
+  }
+
+ 
+
+  #alice, #snake{
+      display: inline-block;
+      
+  }
+
